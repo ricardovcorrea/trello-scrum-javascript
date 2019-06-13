@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://p.trellocdn.com/power-up.min.css">
+</head>
+
+<body>
+    <table width="100%" cellpadding="5" cellspacing="5" border="0">
+        <tr>
+            <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <td colspan="5"><b>Todos os times:</b></td>
+                        </tr>
+                        <tr>
+                            <td>Pontos estimados</td>
+                            <td>Pontos executados</td>
+                            <td>Horas executadas</td>
+                            <td>Horas pagas</td>
+                            <td>Horas gratuitas</td>
+                        </tr>
+                    </thead>
+                    <tbody id="statistics-total-table"></tbody>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <td colspan="5"><b style="color:#ff8300">IOS:</b></td>
+                        </tr>
+                        <tr>
+                            <td>Pontos estimados</td>
+                            <td>Pontos executados</td>
+                            <td>Horas executadas</td>
+                            <td>Horas pagas</td>
+                            <td>Horas gratuitas</td>
+                        </tr>
+                    </thead>
+                    <tbody id="statistics-total-IOS-table"></tbody>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <td colspan="5"><b style="color:#198914">Android:</b></td>
+                        </tr>
+                        <tr>
+                            <td>Pontos estimados</td>
+                            <td>Pontos executados</td>
+                            <td>Horas executadas</td>
+                            <td>Horas pagas</td>
+                            <td>Horas gratuitas</td>
+                        </tr>
+                    </thead>
+                    <tbody id="statistics-total-Android-table"></tbody>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <td colspan="5"><b style="color:#b200ff">Backend:</b></td>
+                        </tr>
+                        <tr>
+                            <td>Pontos estimados</td>
+                            <td>Pontos executados</td>
+                            <td>Horas executadas</td>
+                            <td>Horas pagas</td>
+                            <td>Horas gratuitas</td>
+                        </tr>
+                    </thead>
+                    <tbody id="statistics-total-Backend-table"></tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Membro</td>
+                <td>Historias executadas</td>
+                <td>Historias bugs</td>
+                <td>Pontos estimados</td>
+                <td>Pontos executados</td>
+                <td>Tarefas executadas</td>
+                <td>Tarefas bugs</td>
+                <td>Horas executadas</td>
+                <td>Horas bugs</td>
+            </tr>
+        </thead>
+        <tbody id="statistics-table"></tbody>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
+    <script src="https://trello.com/1/client.js?key=dcd2ec785be1bc547882fd136d38a21f"></script>
+    <script src="./statistics.js"></script>
+</body>
+
+</html>
